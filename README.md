@@ -6,5 +6,6 @@
 
 - راهنمای فارسی: [`prompts/ASTRA-USAGE-FA.md`](prompts/ASTRA-USAGE-FA.md)
 - پرامپت کامل (کپی برای Astra): [`prompts/GPT6-ASTRA-MASTER-PROMPT.md`](prompts/GPT6-ASTRA-MASTER-PROMPT.md)
+- تصمیم تایپ‌شده محلی ([typesafe-local](https://github.com/aabolfazl/typesafe-local)): [`docs/TYPESAFE_LOCAL.md`](docs/TYPESAFE_LOCAL.md) · نمونه‌ها: [`prompts/typesafe-local/`](prompts/typesafe-local/)
 
 معماری حسابداری مرجع: [گزارش معماری حسابداری](https://chatgpt.com/share/6aa01d51-85c4-83ea-9f64-6e4f32824e21)

@@ -1,0 +1,31 @@
+{
+  "state": {
+    "channel": "telegram",
+    "message_fa": "امروز طلا رو ۲۰٪ زیر قیمت بازار می‌دم، فقط کارت به کارت به این شماره. فرصت محدوده.",
+    "context": "عیار امن — تشخیص سیگنال مشکوک برای کاربر خرد"
+  },
+  "questions": {
+    "likely_scam": {
+      "type": "noul",
+      "instructions": "Is this message likely a scam or social-engineering pitch?",
+      "criteria": {
+        "true": "Pressure, off-market price, or ask to send money outside a regulated channel",
+        "false": "Normal market talk or educational content"
+      }
+    },
+    "route": {
+      "type": "choice",
+      "instructions": "Which عیار امن path should handle this?",
+      "criteria": {
+        "block_warn": "Show a strong scam warning and block further action",
+        "educate": "Soft warning + educational tip",
+        "allow": "Looks legitimate enough to pass"
+      }
+    },
+    "urgency": {
+      "type": "score",
+      "instructions": "How urgently should the user be interrupted?",
+      "criteria": ["Can wait", "Soon", "Immediate interrupt"]
+    }
+  }
+}
