@@ -9,3 +9,8 @@
 - endpoint مدل رایگان Cline ([cline2api-workers](https://github.com/pingmike2/cline2api-workers)): [`docs/CLINE2API.md`](docs/CLINE2API.md)
 
 معماری حسابداری مرجع: [گزارش معماری حسابداری](https://chatgpt.com/share/6aa01d51-85c4-83ea-9f64-6e4f32824e21)
+
+## اسناد OSS / UX
+
+- [`docs/OSS_INSPIRATION.md`](docs/OSS_INSPIRATION.md)
+- [`docs/UI_SECURE_PATH_SKETCH.md`](docs/UI_SECURE_PATH_SKETCH.md)
